@@ -1,0 +1,13 @@
+numpy>=1.16.0
+astropy>=4.1.0
+flake8 # for code style
+black # for code style
+tox
+pytest # for testing
+pytest-astropy
+pytest-cov
+pre-commit
+sphinx # for documentation
+sphinx-automodapi # for documentation
+towncrier # for building changelog for documentation
+ipython # for easier debugging

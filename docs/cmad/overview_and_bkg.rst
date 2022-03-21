@@ -10,9 +10,12 @@ within the context of the SMD portfolio.
 Science Objectives
 ==================
 
-This section describes the science objective(s) of the mission.
+The primary purpose of the PADRE mission is to determine the anisotropy or beaming of accelerated electrons in solar flares.
+The XDSOX instrument will approach this objective by measuring the x-ray flux.
+When compared to the flux measured by the same detectors on Solar Orbiter STIX, we will be able to determine the x-ray directivity which is directly related to the electron anisotropy.
 
-<Instrument name> Instrument Description
+
+PADRE/XDSOX Instrument Description
 ========================================
 
 
@@ -37,16 +40,22 @@ below may be included.
 Instrument Subsystem Descriptions
 =================================
 
-<Subsystem name>
-----------------
+Caliste-SO Detectors
+--------------------
 This section (and any necessary subsections) provides details on the susbsystems or components
 responsible for directly obtaining the measurements or observations pertinent to the instrument. Details
 on the layout and design of the subsystem, examples of expected measurements, and interactions with
 any other subsystems should be provided.
-3.2.3 <Instrument name> Heritage
-3.2.3.1 Instrument Heritage
+
+Heritage
+^^^^^^^^
+
+Instrument Heritage
+*******************
 This section summarizes any heritage from past missions for the instrument and its subsystems or
 components (e.g., detectors, cameras, signal processing electronics).
-3.2.3.2 Algorithm and Calibration Heritage
+
+Algorithm and Calibration Heritage
+----------------------------------
 This section identifies any heritage from past missions for the algorithms used to process/convert detector
 signals into the measurable quantities needed to meet the science requirements.

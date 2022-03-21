@@ -8,20 +8,20 @@ Overview
     :stub-columns: 1
 
     * - docs
-      - |docs| |readtehdocs|
+      - |docs| |readthedocs|
     * - build status
       - |testing| |codestyle|
 
-.. |docs| image:: https://github.com/ehsteve/padre-xdsox/actions/workflows/docs.yml/badge.svg
-    :target: https://github.com/ehsteve/padre-xdsox/actions/workflows/docs.yml
+.. |docs| image:: https://github.com/ehsteve/padre_xdsox/actions/workflows/docs.yml/badge.svg
+    :target: https://github.com/ehsteve/padre_xdsox/actions/workflows/docs.yml
     :alt: Documentation Build Status
 
-.. |testing| image:: https://github.com/ehsteve/padre-xdsox/actions/workflows/testing.yml/badge.svg
-    :target: https://github.com/ehsteve/padre-xdsox/actions/workflows/testing.yml
+.. |testing| image:: https://github.com/ehsteve/padre_xdsox/actions/workflows/testing.yml/badge.svg
+    :target: https://github.com/ehsteve/padre_xdsox/actions/workflows/testing.yml
     :alt: Build Status
 
-.. |codestyle| image:: https://github.com/ehsteve/padre-xdsox/actions/workflows/codestyle.yml/badge.svg
-    :target: https://github.com/ehsteve/padre-xdsox/actions/workflows/codestyle.yml
+.. |codestyle| image:: https://github.com/ehsteve/padre_xdsox/actions/workflows/codestyle.yml/badge.svg
+    :target: https://github.com/ehsteve/padre_xdsox/actions/workflows/codestyle.yml
     :alt: Codestyle and linting using flake8
 
 .. |readthedocs| image:: https://readthedocs.org/projects/padre-xdsox/badge/?version=latest

@@ -24,8 +24,8 @@ Overview
     :target: https://github.com/ehsteve/padre-xdsox/actions/workflows/codestyle.yml
     :alt: Codestyle and linting using flake8
 
-.. |readthedocs| .. image:: https://readthedocs.org/projects/xdsox/badge/?version=latest
-    :target: https://xdsox.readthedocs.io/en/latest/?badge=latest
+.. |readthedocs| .. image:: https://readthedocs.org/projects/padre-xdsox/badge/?version=latest
+    :target: https://padre-xdsox.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
 .. end-badges

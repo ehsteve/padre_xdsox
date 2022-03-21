@@ -10,7 +10,7 @@ build-backend = 'setuptools.build_meta'
     package = "xdsox"
     filename = "CHANGELOG.rst"
     directory = "changelog/"
-    issue_format = "`#{issue} <https://github.com/ehsteve/padre-xdsox/pull/{issue}>`__"
+    issue_format = "`#{issue} <https://github.com/ehsteve/padre_xdsox/pull/{issue}>`__"
 
     [[tool.towncrier.type]]
         directory = "breaking"

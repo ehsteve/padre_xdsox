@@ -22,9 +22,9 @@ The data levels for the spectrum product are described below.
 +----------+---------------------------------------+---------------------------------------+
 | Level    | Product                               | Description                           |      
 +==========+=======================================+=======================================+
-| 1        | Count Spectrum in energy space with   | FITS file, produced at least every 1 s|
-|          | decimated counts in the lower energy  | gain calibrated for each pixel        |
-|          | bins                                  |                                       |
+| 1        | Count Spectrum in energy space        | FITS file, produced at least every 1 s|
+|          | integrated across all pixels and      |                                       |
+|          | detectors                             |                                       |
 +----------+---------------------------------------+---------------------------------------+
 
 The data levels for the photon list product are described below.
@@ -32,9 +32,9 @@ The data levels for the photon list product are described below.
 +----------+---------------------------------------+---------------------------------------+
 | Level    | Product                               | Description                           |      
 +==========+=======================================+=======================================+
-| 0        | List of photons. Each photon has      | FITS file, produced at least every 1 s|
-|          | relative time, photon energy in ADC   |                                       |
-|          | counts.                               |                                       |
+| 0        | List of hits. Each photon has         | FITS file, file will consist of a     |
+|          | relative time, photon energy in ADC   | fixed number of hits                  |
+|          | counts and pixel and detector number  |                                       |
 +----------+---------------------------------------+---------------------------------------+
 | 1        | List of photons. Each photon has      | FITS file, produced with a fixed      |
 |          | time of arrival in UTC and calibrated | number photons and variable           |                       
@@ -47,7 +47,7 @@ Both of the above products can be used to generate a calibrated spectrum product
 | Level    | Product                               | Description                           |      
 +==========+=======================================+=======================================+
 | 2        | Flux Spectrum in energy space         | FITS, data flag to state if it was    |
-|          |                                       | generated from the photon list        |
+|          |                                       | generated from the photon list or not |
 +----------+---------------------------------------+---------------------------------------+
 
 The above data product will be used to generate the following derived data products.
@@ -56,7 +56,7 @@ The above data product will be used to generate the following derived data produ
 | Level    | Product                               | Description                           |      
 +==========+=======================================+=======================================+
 | 3        | Flare X-ray Directivity as a function | FITS file, requires Solar Orbiter STIX|
-|          | of energy and time.                   | data                                  |
+|          | of energy and time.                   | data, ratio of STIX to PADRE flux     |
 +----------+---------------------------------------+---------------------------------------+
 | 4        | Flare-accelerated Electron Anisotropy | FITS file, requires modeling analysis |
 |          | as a function of energy and time.     |                                       |

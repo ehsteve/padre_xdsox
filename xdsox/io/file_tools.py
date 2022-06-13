@@ -42,6 +42,7 @@ def read_file(data_filename):
             num_hits = int((packet_length - 7) / 2)
             hit_data = this_packet[7 : 7 + 2 * num_hits]
             pixel_ids[hit_count : hit_count + num_hits] = hit_data[::2]
+
             hit_energy[hit_count : hit_count + num_hits] = hit_data[1::2]
             timestamps[hit_count : hit_count + num_hits] = np.repeat(
                 time_stamp, num_hits
@@ -54,8 +55,9 @@ def read_file(data_filename):
     photon_list = pd.DataFrame(
         data={
             "timestamp": timestamps[good_index],
-            "pixel_id": pixel_ids[good_index],
-            "energy": hit_energy[good_index],
+            "asic": pixel_ids[good_index] >> 5,
+            "pixel": pixel_ids[good_index] & 0x00011111,
+            "energy": hit_energy[good_index]
         }
     )
 
